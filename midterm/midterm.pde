@@ -16,8 +16,8 @@ void setup(){
    port.clear();
    port.bufferUntil('\n');
    
-   imgList.add(loadImage("quarantine_positive_Image1.png"));
-   imgList.add(loadImage("quarantine_negative_image1.jpg"));
+   imgList.add(loadImage("./../quarantine_positive_Image1.png"));
+   imgList.add(loadImage("./../quarantine_negative_image1.jpg"));
 }
 
 void draw(){
